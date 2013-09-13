@@ -31,6 +31,14 @@ body {
 	-moz-box-sizing:border-box;
 }
 
+nav {
+	position: fixed;
+}
+
+.right nav {
+	right:18px;
+}
+
 .logo {
 	border-left: 6px solid #E6E6E6;
 	color:#E6E6E6;
@@ -46,8 +54,8 @@ body {
 }
 
 .circle {
-	float:right;
-	display:inline-block;
+	text-align: right;
+	display:block;
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
@@ -64,8 +72,17 @@ body {
 	font-size: 55px;
 }
 
+.content-left h2 {
+	font-size: 35px;
+}
+
+.content-left p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
 .content-right {
-	margin: 97px 10% 0px 10%;
+	margin: 65px 10% 0px 10%;
 }
 
 .content-right h1 {
@@ -80,8 +97,9 @@ body {
 	color:#797979;
 }
 
-.story a {
-	
+.story a:hover {
+	color:#55EEB8;
+	cursor: pointer;
 }
 
 .story h2 {
@@ -90,6 +108,7 @@ body {
 
 .story p {
 	font-size: 14px;
+	line-height: 20px;
 }
 
 
