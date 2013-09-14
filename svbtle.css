@@ -2,7 +2,9 @@ body {
 	margin:0px;
 }
 
-*{font-family: 'Source Sans Pro', sans-serif;
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
 }
 
 .container {
@@ -69,16 +71,19 @@ nav {
 .content-left h1 {
 	color:#CCCCCC;
 	font-weight: 300;
-	font-size: 55px;
+	font-size: 400%;
 }
 
 .content-left h2 {
-	font-size: 35px;
+	font-size: 255%;
 }
 
 .content-left p {
-	font-size: 14px;
 	line-height: 20px;
+}
+
+.content-left img {
+	width:100%;
 }
 
 .content-right {
@@ -88,7 +93,7 @@ nav {
 .content-right h1 {
 	color:#CCCCCC;
 	font-weight: 900;
-	font-size: 18px;
+	font-size: 120%;
 	margin-bottom: 35px;
 }
 
@@ -103,11 +108,10 @@ nav {
 }
 
 .story h2 {
-	font-size: 22px;
+	font-size: 160%;
 }
 
 .story p {
-	font-size: 14px;
 	line-height: 20px;
 }
 
